@@ -19,3 +19,9 @@ pip install -r requirements.txt
 # open notebook
 jupyter notebook
 ```
+
+## Use
+
+```shell
+$ sh install.sh
+```
