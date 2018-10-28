@@ -8,8 +8,14 @@
 
 ```
 pip3 install virtualenv
+
+# new a env
 virtualenv source
 source ./source/bin/activate
+
+# install packages in env
 pip install -r requirements.txt
+
+# open notebook
 jupyter notebook
 ```
