@@ -231,3 +231,9 @@ mnist_data/*
 
 save/*
 !save/.gitkeep
+
+frozen/
+!frozen/.gitkeep
+
+model_output/
+!model_output/.gitkeep
