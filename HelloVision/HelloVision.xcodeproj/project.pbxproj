@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF73378A2198134000B66A3E /* PetsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF7337892198133F00B66A3E /* PetsClassifier.mlmodel */; };
 		AFE9CDDC2197C85700E20FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9CDDB2197C85700E20FA1 /* AppDelegate.swift */; };
 		AFE9CDDE2197C85700E20FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9CDDD2197C85700E20FA1 /* ViewController.swift */; };
 		AFE9CDE12197C85700E20FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE9CDDF2197C85700E20FA1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF7337892198133F00B66A3E /* PetsClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = PetsClassifier.mlmodel; path = ../../PetsClassifier.mlmodel; sourceTree = "<group>"; };
 		AFE9CDD82197C85700E20FA1 /* HelloVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE9CDDB2197C85700E20FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE9CDDD2197C85700E20FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		AFE9CDDA2197C85700E20FA1 /* HelloVision */ = {
 			isa = PBXGroup;
 			children = (
+				AF7337892198133F00B66A3E /* PetsClassifier.mlmodel */,
 				AFE9CDED2197CB6E00E20FA1 /* Inceptionv3.mlmodel */,
 				AFE9CDDB2197C85700E20FA1 /* AppDelegate.swift */,
 				AFE9CDDD2197C85700E20FA1 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				AFE9CDDE2197C85700E20FA1 /* ViewController.swift in Sources */,
 				AFE9CDEE2197CB6E00E20FA1 /* Inceptionv3.mlmodel in Sources */,
 				AFE9CDDC2197C85700E20FA1 /* AppDelegate.swift in Sources */,
+				AF73378A2198134000B66A3E /* PetsClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

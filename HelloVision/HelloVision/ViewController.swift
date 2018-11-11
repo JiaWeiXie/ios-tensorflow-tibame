@@ -56,7 +56,8 @@ class ViewController: UIViewController {
     }
     
     private func setupML() {
-        let model = Inceptionv3().model
+        //let model = Inceptionv3().model
+        let model = PetsClassifier().model
         guard let visionModel = try? VNCoreMLModel(for: model) else {
             assertionFailure("Fail to create VNCoreMLModel.")
             return
